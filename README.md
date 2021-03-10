@@ -20,10 +20,6 @@ dc up -d
 rpm createsuperuser
 ```
 
-## Set Server Env & Deployment Manual
-[go manual](https://wiki.daumkakao.com/pages/viewpage.action?pageId=606796416)
-
-
 ## Deployment
 ```bash
 python deploy.py --branch master
