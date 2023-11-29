@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    dockerfile = 'FROM python:3.6\n\n'
+    dockerfile = 'FROM python:3.11.6\n\n'
     dockerfile +='RUN pip install --upgrade pip\n'
     for l in open('requirements.txt'):
         l = l.strip()
